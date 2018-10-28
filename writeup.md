@@ -13,22 +13,22 @@ The goals / steps of this project are the following:
 My pipeline consisted of 6 steps.
 
 1. Converted to gray scale
-![](.//process/gray.jpg)
+![](./writeup_images/gray.jpg)
 
 2. Gaussian filtering
-![](.//process/blur.jpg)
+![](./writeup_images/blur.jpg)
 
 3. Extraction of white or yellow color using thresholds
-![](.//process/filter.jpg)
+![](./writeup_images/filter.jpg)
 
 4. Canny edge detection
-![](.//process/edges.jpg)
+![](./writeup_images/edges.jpg)
 
 5. Mask except focusing region
-![](.//process/masked_edges.jpg)
+![](./writeup_images/masked_edges.jpg)
 
 6. Drawing lines
-![](.//process/lines.jpg)
+![](./writeup_images/lines.jpg)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function as below.
 
